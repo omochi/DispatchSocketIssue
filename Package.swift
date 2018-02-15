@@ -15,6 +15,7 @@ let package = Package(
         .target(name: "test1", dependencies: ["DispatchSocketIssue"]),
         .target(name: "test2", dependencies: ["DispatchSocketIssue"]),
         .target(name: "test3", dependencies: ["DispatchSocketIssue"]),
+        .target(name: "test4", dependencies: ["DispatchSocketIssue"]),
         .testTarget(name: "DispatchSocketIssueTests", dependencies: ["DispatchSocketIssue"]),
     ]
 )
